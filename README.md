@@ -1,3 +1,5 @@
+i like beans
+
 # Bonus: JavaScript Object-ball
 
 ## Learning Goals
@@ -116,11 +118,11 @@ function inside of our `homeTeamName` function and operate on the object:
 
 ```js
 function homeTeamName() {
-  let object = gameObject()
-  return object['home']['teamName']
+  let object = gameObject();
+  return object["home"]["teamName"];
 }
 
-console.log(homeTeamName())
+console.log(homeTeamName());
 // logs "Brooklyn Nets"
 ```
 
@@ -131,11 +133,11 @@ results from functions into variables because it makes it easier to debug our
 programs later. One-liners are not always better!
 
 ```js
-function homeTeamName(){
-  return gameObject()['home']['teamName']
+function homeTeamName() {
+  return gameObject()["home"]["teamName"];
 }
 
-console.log(homeTeamName())
+console.log(homeTeamName());
 // logs "Brooklyn Nets"
 ```
 
